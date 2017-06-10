@@ -1,0 +1,25 @@
+﻿需要设置邮件和用户名
+git config --global user.email "emailName"
+git config --global user.name "userName"
+
+添加远程仓库
+git remote add origin https://github.com/userName/test.git
+git remote add origin https://github.com/userName/javase.git
+查看远程仓库可以不加-v（加上-v直接查看地址）
+git remote -v
+
+
+首先需要创建README.md文件：git pull --rebase origin master
+提交到远程仓库：    git push -u origin master 
+下载远程仓库的代码：git pull origin master
+
+修改后重新提交：先需要执行：git add . 再执行: git commit -m'信息'  
+
+添加分支
+git branch v2
+
+切换到v2分支
+git checkout v2
+
+
+
