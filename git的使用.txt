@@ -22,4 +22,10 @@ git branch v2
 git checkout v2
 
 
+git覆盖本地强制更新
+git fetch --all  
+git reset --hard origin/master 
+git pull
+
+
 
